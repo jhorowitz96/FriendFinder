@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Survey Questions</h1>
+    <form>
+        <div class="form-group" id = "name">
+            <label for="formGroupExampleInput"><b>Name</b></label>
+            <input type="text" class="form-control" id="formGroupExampleInput">
+        </div>
+        <div class="form-group" id = "photo">
+            <label for="formGroupExampleInput2"><b>Photo</b></label>
+            <input type="text" class="form-control" id="formGroupExampleInput2">
+        </div>
+
+        <b>Question 1</b>
+        <div>Your mind is always buzzing with unexplored ideas and plans.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question1">
+            <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 2</b>
+        <div>You like sports.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question2">
+            <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 3</b>
+        <div>You like comedies.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question3">
+                <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 4</b>
+        <div>You travel out of the country at least once per year.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question4">
+                <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 5</b>
+        <div>You find it easy to stay relaxed and focused even when there is some pressure.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question5">
+            <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 6</b>
+        <div>You feel more energetic after spending time with a group of people.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question6">
+                <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 7</b>
+        <div>You are a dog lover.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question7">
+                <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 8</b>
+        <div>You love the beach.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question8">
+            <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 9</b>
+        <div>It is often difficult for you to relate to other people’s feelings.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question9">
+            <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <b>Question 10</b>
+        <div>You rarely do something just out of sheer curiosity.</div>
+        <select class="custom-select custom-select-sm mb-3" id = "question10">
+            <option selected></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <button type="submit" class="btn btn-primary mb-2" id = "submit">Submit</button>
+    </form>
+    <a href="/api/friends">Friends List API</a> | <a href="">Github Repo</a>
+
+
+    <!-- modal goes here -->
+
+    
+</body>
+
+</html>
