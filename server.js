@@ -5,6 +5,7 @@
 const express = require("express");
 const path = require("path");
 
+
 // Tells node that we are creating an "express" server
 var app = express();
 // Sets an initial port. We"ll use this later in our listener
@@ -17,6 +18,8 @@ app.use(express.json());
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
+
+
 // Serving our HTML files.
 // app.get("/survey", function(req, res) {
 //     res.sendFile(path.join(__dirname, "./public/survey.html"));
@@ -26,23 +29,6 @@ require("./app/routing/htmlRoutes")(app);
 // app.get("/", function(req, res) {
 //     res.sendFile(path.join(__dirname, "./public/home.html"));
 //   });
-
-
-// API Endpoints
-// app.get("/api/friends", function(req, res) {
-//     return res.json(friends);
-//   });
-
-//   app.post("/api/friends", function(req, res) {
-  
-//     console.log(newFriend);
-  
-//     friends.push(newFriend);
-  
-//     res.json(newFriend);
-//   });
-
-
 
 // // =============================================================================
 // // LISTENER

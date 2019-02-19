@@ -1,7 +1,7 @@
 var friends = 
 [{
-    name:"Ahmed",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name:"Cory",
+    photo:"http://fromscreentotheme.com/WhosWhoCoryMatthews-1.jpg",
     scores:[
         5,
         1,
@@ -16,8 +16,8 @@ var friends =
       ]
   },
   {
-    name:"Bob",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name:"Shawn",
+    photo:"https://larrybrownsports.com/wp-content/uploads/2016/08/Shawn-Hunter.jpg",
     scores:[
         4,
         3,
@@ -32,8 +32,8 @@ var friends =
       ]
   },
   {
-    name:"Jane",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name:"Topanga",
+    photo:"http://pm1.narvii.com/6617/48d1bf5bbf88f53b2899d3c9448533ee2f2ac30d_00.jpg",
     scores:[
         1,
         2,
@@ -41,6 +41,70 @@ var friends =
         3,
         4,
         1,
+        1,
+        3,
+        1,
+        1
+      ]
+  },
+  {
+    name:"Feeny",
+    photo:"https://vignette.wikia.nocookie.net/boymeetsworld/images/9/9f/Feeny_promo_pic.jpg/revision/latest?cb=20151004211257",
+    scores:[
+        1,
+        2,
+        1,
+        3,
+        4,
+        4,
+        3,
+        1,
+        1,
+        1
+      ]
+  },
+  {
+    name:"Angela",
+    photo:"https://i.ytimg.com/vi/IF1qh1F5uSg/hqdefault.jpg",
+    scores:[
+        1,
+        2,
+        4,
+        5,
+        4,
+        4,
+        3,
+        2,
+        2,
+        1
+      ]
+  },
+  {
+    name:"Eric",
+    photo:"https://vignette.wikia.nocookie.net/boymeetsworld/images/3/31/Eric_S04_promo_pic.jpg/revision/latest?cb=20151004191812",
+    scores:[
+        1,
+        2,
+        4,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+  },
+  {
+    name:"Joel",
+    photo:"http://images.performgroup.com/di/library/omnisport/88/16/joel-embiid_f55hf0tm8mpz1vnwznmb6gebp.jpg?t=-234531090&w=960&quality=70",
+    scores:[
+        1,
+        2,
+        4,
+        3,
+        4,
+        4,
         1,
         3,
         1,
@@ -48,8 +112,6 @@ var friends =
       ]
   }
 
-
-
-]
+];
 
 module.exports = friends;

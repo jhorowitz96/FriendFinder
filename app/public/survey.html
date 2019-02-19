@@ -131,7 +131,26 @@
     <a href="/api/friends">Friends List API</a> | <a href="">Github Repo</a>
 
 
-    <!-- modal goes here -->
+    <div id = "myModal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Meet your new best friend!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Welcome to the friend zone!</p>
+                  <p id = "friend-name"></p>
+                  <img id = "friend-image" />
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
 </body>
@@ -159,9 +178,12 @@
         };
 
         $.post("/api/friends", newFriend,
-            function (data) {
-                if (data){
-                alert("Welcome to the friend zone!")
+            function (bestFriend) {
+                if (bestFriend){
+                $("#friend-name").text(bestFriend.name)
+                $("#friend-image").attr("src", bestFriend.photo)
+                $('#myModal').modal('show')
+                
                 }
             })
     })
