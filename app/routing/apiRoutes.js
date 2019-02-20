@@ -34,9 +34,6 @@ module.exports = function (app) {
         res.json(bestFriend);
 
     });
-
-
-
 }
 // function to find the index of the smallest element from an array
 function indexOfSmallest(a) {return a.indexOf(Math.min.apply(Math, a));}

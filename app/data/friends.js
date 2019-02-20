@@ -17,7 +17,7 @@ var friends =
   },
   {
     name:"Shawn",
-    photo:"https://larrybrownsports.com/wp-content/uploads/2016/08/Shawn-Hunter.jpg",
+    photo:"http://www.favslist.com/photos/pages/x1/Shawn-Hunter-1442618437-127301.jpg",
     scores:[
         4,
         3,
